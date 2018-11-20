@@ -107,7 +107,7 @@
 						]
 						
 					];   
-});</code></pre>
+</code></pre>
                         <p><li>Since this radar chart is about comparing the average annual expenditures between two regions the <b>"axis"</b> is actually the name of the specific variables or aspects of comparison. In our case, it will be the <b>Variables</b> from our data (Food, Transport, etc.,)
                         The <b>"value"</b> will then be the corresponding values(no quotes, since it's numeric).</p>
                         <li>The order in which you enter the data (data 1 and data 2) is important for the customization, which will be explained next. </li>
@@ -132,7 +132,7 @@
                   color: color
 			};
 
-});</code></pre>
+</code></pre>
                 <li> The <code> var color = d3.scale.ordinal() </code> attributes colors in the same order as the data presented. So the first color code (<b>#CC333F</b>) will be attributed to the data 1, since it's the first in the code. Just something to know! :) </li>
                     <li><code>maxValue</code> will be the highest values in you data. For now, it is anything above 22,500, since the highest expediture value we have 22,612</li>
                     <li> I've left the level to 5, which are the breaks int the data but of course, you can change them if it's too many or too less</li>
@@ -142,7 +142,7 @@
                  
                 <pre><code class="language-javascript">
                     RadarChart(".radarChart", data,radarChartOptions);
-});</code></pre>       
+</code></pre>       
                     <li> If you study the radarChart.js, you'll see that this function is defined at the very beginning, which is how we're able to call it out.</li>
                     <p><li> Now, you should be able to preview it!</li></p>
                         
